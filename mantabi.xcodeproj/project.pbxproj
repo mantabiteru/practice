@@ -13,6 +13,11 @@
 		03029D3F26FA0F8700F405B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03029D3D26FA0F8700F405B9 /* Main.storyboard */; };
 		03029D4126FA0F8800F405B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03029D4026FA0F8800F405B9 /* Assets.xcassets */; };
 		03029D4426FA0F8800F405B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03029D4226FA0F8800F405B9 /* LaunchScreen.storyboard */; };
+		0312E74326FB531500A885E7 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312E74226FB531500A885E7 /* NextViewController.swift */; };
+		0390EED526FF000F00702C2A /* info.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0390EED426FF000F00702C2A /* info.csv */; };
+		0390EED726FF03C500702C2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390EED626FF03C500702C2A /* HomeViewController.swift */; };
+		0390EED926FF064E00702C2A /* NexthomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390EED826FF064E00702C2A /* NexthomeViewController.swift */; };
+		0390EEDB26FF07B900702C2A /* ItiranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390EEDA26FF07B900702C2A /* ItiranViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		03029D4026FA0F8800F405B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03029D4326FA0F8800F405B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03029D4526FA0F8800F405B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0312E74226FB531500A885E7 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		0390EED426FF000F00702C2A /* info.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = info.csv; sourceTree = "<group>"; };
+		0390EED626FF03C500702C2A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0390EED826FF064E00702C2A /* NexthomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NexthomeViewController.swift; sourceTree = "<group>"; };
+		0390EEDA26FF07B900702C2A /* ItiranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItiranViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				03029D3726FA0F8700F405B9 /* AppDelegate.swift */,
+				0390EED426FF000F00702C2A /* info.csv */,
 				03029D3926FA0F8700F405B9 /* SceneDelegate.swift */,
 				03029D3B26FA0F8700F405B9 /* ViewController.swift */,
 				03029D3D26FA0F8700F405B9 /* Main.storyboard */,
+				0390EEDA26FF07B900702C2A /* ItiranViewController.swift */,
+				0390EED826FF064E00702C2A /* NexthomeViewController.swift */,
+				0390EED626FF03C500702C2A /* HomeViewController.swift */,
+				0312E74226FB531500A885E7 /* NextViewController.swift */,
 				03029D4026FA0F8800F405B9 /* Assets.xcassets */,
 				03029D4226FA0F8800F405B9 /* LaunchScreen.storyboard */,
 				03029D4526FA0F8800F405B9 /* Info.plist */,
@@ -126,6 +141,7 @@
 			files = (
 				03029D4426FA0F8800F405B9 /* LaunchScreen.storyboard in Resources */,
 				03029D4126FA0F8800F405B9 /* Assets.xcassets in Resources */,
+				0390EED526FF000F00702C2A /* info.csv in Resources */,
 				03029D3F26FA0F8700F405B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0390EED726FF03C500702C2A /* HomeViewController.swift in Sources */,
+				0390EEDB26FF07B900702C2A /* ItiranViewController.swift in Sources */,
 				03029D3C26FA0F8700F405B9 /* ViewController.swift in Sources */,
+				0312E74326FB531500A885E7 /* NextViewController.swift in Sources */,
 				03029D3826FA0F8700F405B9 /* AppDelegate.swift in Sources */,
+				0390EED926FF064E00702C2A /* NexthomeViewController.swift in Sources */,
 				03029D3A26FA0F8700F405B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
